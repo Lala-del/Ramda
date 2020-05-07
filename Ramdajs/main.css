@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ramda-link{
+    text-decoration: none;
+    font-size: 22px;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.first-part{
+    color: black;
+}
+
+.second-part{
+    color: #4bcaff;
+}
+
+.navigation-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    vertical-align: middle;
+    padding: 20px;
+}
+.navigation{
+    text-align: center;
+    background-color: #35444f;
+    vertical-align: top;
+    width: 1258px;
+    margin: 20px 0;
+}
+.navigation-link:hover{
+    background-color: #222f3a;
+    transition: all 0.5s;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.left-side-link {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: #222f3a;
+    font-family: sans-serif;
+    vertical-align: middle;
+    padding: 20px 35px;
+}
+.left-side {
+    width: 20%;
+    border: 1px solid #222f3a;
+    margin-top: 10px;
+    display: inline-block;
+    float: left;
+}
+.right-side{
+    width: 69%;
+    padding: 47px;
+    border:1px solid #222f3a;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.right-side-img{
+    height: 262px;
+    display: block;
+    margin: 0 auto;
+}
+.right-side-img:hover{
+    height: 280px;
+    transition: all 5s 1s;
+}
+.bottom-side{
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 68px;
+}
+.left-side-link:hover{
+    background-color: silver;
+    transition: all 0.5s;
+    padding-left: 45px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.footer-link{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    vertical-align: middle;
+    padding-top: 10px;
+    font-size: 18px;
+    margin: 15px;
+}
+footer{
+    background-color: #b4b7ba;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.copyright{
+    display: inline-block;
+    float: right;
+    font-family: sans-serif;
+    margin: 15px 25px 15px 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-link:hover{
+    color: blue;
+    transition: all 0.5s;
+    border-bottom: 1px solid blue;
+}
+
+.footer-navigation{
+    float: left;
+}
+.first-paragraph{
+    margin-bottom: 40px;
+}
